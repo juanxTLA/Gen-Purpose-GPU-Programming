@@ -1,0 +1,28 @@
+  // C style doesn't need addresses
+  int matrix_layout = LAPACK_ROW_MAJOR;
+  char trans = 'N';
+  int m = 4;
+  int n = 4;
+  int nrhs = 1;
+  float A[] {
+    1, 2, 3, 4,
+    4, 3, 1, 0,
+    6, 2, 6, 8,
+    0, 1, 0, 1
+  };
+  float b[4] {1,2,3,4};
+  LAPACKE_sgels(
+    matrix_layout, 
+    trans,
+    m,
+    n,
+    nrhs,
+    A,
+    n,
+    b,
+    1
+  );
+
+  for (int i = 0; i < 4; ++i) {
+    printf("x[%d] = %20.16f\n", i, b[i]);
+  }

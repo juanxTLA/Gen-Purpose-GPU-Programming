@@ -1,0 +1,258 @@
+setting dmc scratch directory
+ 
+============================================================
+=====         Summary of your GPU job                  =====
+============================================================
+  The script file is: .runTests.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/uahclsc0016/reduction
+  The working directory is:  /scratch-local/uahclsc0016.reduction_test.1005350
+  The memory limit is: 1gb
+  The job will start running after: 2023-03-24T11:43:12
+  Job Name: reduction_test
+  Virtual queue: class
+  QOS: --qos=class
+  Constraints: 
+  Using  1  cores on master node  dmc203
+  Node list:  dmc203
+  Nodes:  dmc203
+  Command typed:
+/apps/scripts/run_gpu .runTests.sh     
+  Queue submit command:
+sbatch --qos=class -J reduction_test --begin=2023-03-24T11:43:12 --requeue --mail-user=jt0127@uah.edu -o reduction_test.o1005350 -t 12:00:00 --gres=gpu:ampere:1 -N 1-1 -n 1 --mem-per-cpu=1000mb  
+ 
+Assigning GPU 0 to this job.
+
+The following have been reloaded with a version change:
+  1) gcc/6.1.0 => gcc/9.3.0
+
+
+
+Waiting for job to start...
+
+==================
+Starting execution
+==================
+
+=============================
+Starting Test for exercise 0,
+=============================
+Ex 0  : 2048 | Time (ms): 0.004096
+=============================
+Starting Test for exercise 1,
+=============================
+Ex 1  : 2048 | Time (ms): 0.18944
+=============================
+Starting Test for exercise 2,
+=============================
+Ex 2  : 2048 | Time (ms): 0.104448
+=============================
+Starting Test for exercise 3,
+=============================
+Ex 3  : 2048 | Time (ms): 0.10752
+=============================
+Starting Test for exercise 4,
+=============================
+Ex 4  : 2048 | Time (ms): 0.166912
+=============================
+Starting Test for exercise 5,
+=============================
+Ex 5  : 2048 | Time (ms): 0.120832
+=============================
+Starting Test for exercise 6,
+=============================
+CUB   : 2048 | Time (ms): 0.185344
+=============================
+Starting Test for exercise 7,
+=============================
+Thrust: 2048 | Time (ms): 4.34758
+=============================
+Starting Test for exercise 8
+=============================
+CUB   : 2048 | Time (ms): 0.224256
+=============================
+Starting Test for exercise 0,
+=============================
+Ex 0  : 4096 | Time (ms): 0.004096
+=============================
+Starting Test for exercise 1,
+=============================
+Ex 1  : 4096 | Time (ms): 0.325632
+=============================
+Starting Test for exercise 2,
+=============================
+Ex 2  : 4096 | Time (ms): 0.11776
+=============================
+Starting Test for exercise 3,
+=============================
+Ex 3  : 4096 | Time (ms): 0.147456
+=============================
+Starting Test for exercise 4,
+=============================
+Ex 4  : 4096 | Time (ms): 0.08704
+=============================
+Starting Test for exercise 5,
+=============================
+Ex 5  : 4096 | Time (ms): 0.113664
+=============================
+Starting Test for exercise 6,
+=============================
+CUB   : 4096 | Time (ms): 0.149504
+=============================
+Starting Test for exercise 7,
+=============================
+Thrust: 4096 | Time (ms): 5.68976
+=============================
+Starting Test for exercise 8
+=============================
+CUB   : 4096 | Time (ms): 0.202752
+=============================
+Starting Test for exercise 0,
+=============================
+Ex 0  : 8192 | Time (ms): 0.004096
+=============================
+Starting Test for exercise 1,
+=============================
+Ex 1  : 8192 | Time (ms): 0.556032
+=============================
+Starting Test for exercise 2,
+=============================
+Ex 2  : 8192 | Time (ms): 0.094208
+=============================
+Starting Test for exercise 3,
+=============================
+Ex 3  : 8192 | Time (ms): 0.121856
+=============================
+Starting Test for exercise 4,
+=============================
+Ex 4  : 8192 | Time (ms): 0.1024
+=============================
+Starting Test for exercise 5,
+=============================
+Ex 5  : 8192 | Time (ms): 0.08192
+=============================
+Starting Test for exercise 6,
+=============================
+CUB   : 8192 | Time (ms): 0.144384
+=============================
+Starting Test for exercise 7,
+=============================
+Thrust: 8192 | Time (ms): 4.79354
+=============================
+Starting Test for exercise 8
+=============================
+CUB   : 8192 | Time (ms): 0.244736
+=============================
+Starting Test for exercise 0,
+=============================
+Ex 0  : 16384 | Time (ms): 0.00512
+=============================
+Starting Test for exercise 1,
+=============================
+Ex 1  : 16384 | Time (ms): 1.1223
+=============================
+Starting Test for exercise 2,
+=============================
+Ex 2  : 16384 | Time (ms): 0.101376
+=============================
+Starting Test for exercise 3,
+=============================
+Ex 3  : 16384 | Time (ms): 0.13824
+=============================
+Starting Test for exercise 4,
+=============================
+Ex 4  : 16384 | Time (ms): 0.129024
+=============================
+Starting Test for exercise 5,
+=============================
+Ex 5  : 16384 | Time (ms): 0.100352
+=============================
+Starting Test for exercise 6,
+=============================
+CUB   : 16384 | Time (ms): 0.246784
+=============================
+Starting Test for exercise 7,
+=============================
+Thrust: 16384 | Time (ms): 4.19325
+=============================
+Starting Test for exercise 8
+=============================
+CUB   : 16384 | Time (ms): 0.2048
+=============================
+Starting Test for exercise 0,
+=============================
+Ex 0  : 32768 | Time (ms): 0.004096
+=============================
+Starting Test for exercise 1,
+=============================
+Ex 1  : 32768 | Time (ms): 1.69808
+=============================
+Starting Test for exercise 2,
+=============================
+Ex 2  : 32768 | Time (ms): 0.110912
+=============================
+Starting Test for exercise 3,
+=============================
+Ex 3  : 32768 | Time (ms): 0.128064
+=============================
+Starting Test for exercise 4,
+=============================
+Ex 4  : 32768 | Time (ms): 0.102272
+=============================
+Starting Test for exercise 5,
+=============================
+Ex 5  : 32768 | Time (ms): 0.08672
+=============================
+Starting Test for exercise 6,
+=============================
+CUB   : 32768 | Time (ms): 0.211072
+=============================
+Starting Test for exercise 7,
+=============================
+Thrust: 32768 | Time (ms): 4.54035
+=============================
+Starting Test for exercise 8
+=============================
+CUB   : 32768 | Time (ms): 0.173664
+=============================
+Starting Test for exercise 0,
+=============================
+Ex 0  : 65536 | Time (ms): 0.003072
+=============================
+Starting Test for exercise 1,
+=============================
+Ex 1  : 65536 | Time (ms): 3.35078
+=============================
+Starting Test for exercise 2,
+=============================
+Ex 2  : 65536 | Time (ms): 0.085696
+=============================
+Starting Test for exercise 3,
+=============================
+Ex 3  : 65536 | Time (ms): 0.131008
+=============================
+Starting Test for exercise 4,
+=============================
+Ex 4  : 65536 | Time (ms): 0.120576
+=============================
+Starting Test for exercise 5,
+=============================
+Ex 5  : 65536 | Time (ms): 0.090336
+=============================
+Starting Test for exercise 6,
+=============================
+CUB   : 65536 | Time (ms): 0.170912
+=============================
+Starting Test for exercise 7,
+=============================
+Thrust: 65536 | Time (ms): 5.03293
+=============================
+Starting Test for exercise 8
+=============================
+CUB   : 65536 | Time (ms): 0.217696
+
+==================
+Finished execution
+==================
+
+Hit Ctrl + C to exit...

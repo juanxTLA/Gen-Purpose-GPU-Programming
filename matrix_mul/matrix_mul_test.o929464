@@ -1,0 +1,42 @@
+setting dmc scratch directory
+ 
+============================================================
+=====         Summary of your GPU job                  =====
+============================================================
+  The script file is: .runTests.sh
+  The time limit is 01:00:00 HH:MM:SS.
+  The target directory is: /home/uahclsc0016/matrix_mul
+  The working directory is:  /scratch-local/uahclsc0016.matrix_mul_test.929464
+  The memory limit is: 20gb
+  The job will start running after: 2023-02-11T19:13:19
+  Job Name: matrix_mul_test
+  Virtual queue: gpu
+  QOS: --qos=gpu
+  Constraints: 
+  Using  1  cores on master node  dmc203
+  Node list:  dmc203
+  Nodes:  dmc203
+  Command typed:
+/apps/scripts/run_gpu .runTests.sh     
+  Queue submit command:
+sbatch --qos=gpu -J matrix_mul_test --begin=2023-02-11T19:13:19 --requeue --mail-user=jt0127@uah.edu -o matrix_mul_test.o929464 -t 01:00:00 --gres=gpu:ampere:1 -N 1-1 -n 1 --mem-per-cpu=20000mb  
+ 
+Assigning GPU 0 to this job.
+
+The following have been reloaded with a version change:
+  1) gcc/6.1.0 => gcc/9.3.0
+
+
+
+Waiting for job to start...
+
+==================
+Starting execution
+==================
+
+
+==================
+Finished execution
+==================
+
+Hit Ctrl + C to exit...

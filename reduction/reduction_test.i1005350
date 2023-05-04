@@ -1,0 +1,19 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: .runTests.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/uahclsc0016/reduction
+  The memory limit is: 1gb
+  The job will start running after: 2023-03-24T11:43:12
+  Job Name: reduction_test
+  Virtual queue: class
+  QOS: --qos=class
+  Constraints: 
+  Command typed:
+/apps/scripts/run_gpu .runTests.sh     
+  Queue submit command:
+sbatch --qos=class -J reduction_test --begin=2023-03-24T11:43:12 --requeue --mail-user=jt0127@uah.edu -o reduction_test.o$SLURM_JOB_ID -t 12:00:00 --gres=gpu:ampere:1 -N 1-1 -n 1 --mem-per-cpu=1000mb  
+  Job number: 1005350
+ 

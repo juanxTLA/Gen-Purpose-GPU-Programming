@@ -1,0 +1,200 @@
+==================
+Starting Test for 16,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         3.1244277705183084e-03 Gflops
+	- Effective Bandwidth:        9.3732833115549238e-03 Gbps
+	- Relative Error (l2):        0.0000000000000000e+00
+	- Relative Error (tiled):        0.0000000000000000e+00
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         1.1428571271814636e+00 Gflops
+	- Effective Bandwidth:        3.4285713815443906e+00 Gbps
+
+==== TILED ====
+	- Computational Rate:         2.5806451961979604e-01 Gflops
+	- Effective Bandwidth:        1.9354838971484700e-01 Gbps
+==================
+Starting Test for 32,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         2.2361496001330899e-02 Gflops
+	- Effective Bandwidth:        3.3542244001996346e-02 Gbps
+	- Relative Error (l2):        9.3276825084424392e-08
+	- Relative Error (tiled):        9.3276825084424392e-08
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         9.1428570174517088e+00 Gflops
+	- Effective Bandwidth:        1.3714285526177562e+01 Gbps
+
+==== TILED ====
+	- Computational Rate:         2.0000000050495146e+00 Gflops
+	- Effective Bandwidth:        7.5000000189356797e-01 Gbps
+==================
+Starting Test for 64,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         1.7553971750074959e-01 Gflops
+	- Effective Bandwidth:        1.3165478812556217e-01 Gbps
+	- Relative Error (l2):        1.2677186953938224e-07
+	- Relative Error (tiled):        1.2677186953938224e-07
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         5.1200001293420826e+01 Gflops
+	- Effective Bandwidth:        3.8400000970065619e+01 Gbps
+
+==== TILED ====
+	- Computational Rate:         1.4222221719170077e+01 Gflops
+	- Effective Bandwidth:        2.6666665723443894e+00 Gbps
+==================
+Starting Test for 128,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         1.5090029744350564e+00 Gflops
+	- Effective Bandwidth:        5.6587611541314609e-01 Gbps
+	- Relative Error (l2):        1.7135869756172190e-07
+	- Relative Error (tiled):        1.7135869756172190e-07
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         2.9257142455845468e+02 Gflops
+	- Effective Bandwidth:        1.0971428420942050e+02 Gbps
+
+==== TILED ====
+	- Computational Rate:         9.5255813942141259e+01 Gflops
+	- Effective Bandwidth:        8.9302325570757422e+00 Gbps
+==================
+Starting Test for 256,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         7.9634857057762627e+00 Gflops
+	- Effective Bandwidth:        1.4931535698330491e+00 Gbps
+	- Relative Error (l2):        2.2522348240346046e-07
+	- Relative Error (tiled):        2.2522348240346046e-07
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         1.3107200331115732e+03 Gflops
+	- Effective Bandwidth:        2.4576000620841995e+02 Gbps
+
+==== TILED ====
+	- Computational Rate:         4.2764110157478746e+02 Gflops
+	- Effective Bandwidth:        2.0045676636318159e+01 Gbps
+==================
+Starting Test for 1024,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         5.1678253929520110e+02 Gflops
+	- Effective Bandwidth:        2.4224181529462552e+01 Gbps
+	- Relative Error (l2):        4.4377146235831237e-07
+	- Relative Error (tiled):        4.4377146235831237e-07
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         2.6313073527276074e+03 Gflops
+	- Effective Bandwidth:        1.2334253215910658e+02 Gbps
+
+==== TILED ====
+	- Computational Rate:         6.8236818072038454e+02 Gflops
+	- Effective Bandwidth:        7.9965021178170064e+00 Gbps
+==================
+Starting Test for 2048,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         3.7831522006714736e+03 Gflops
+	- Effective Bandwidth:        8.8667629703237651e+01 Gbps
+	- Relative Error (l2):        0.0000000000000000e+00
+	- Relative Error (tiled):        0.0000000000000000e+00
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         2.6325461091973893e+03 Gflops
+	- Effective Bandwidth:        6.1700299434313806e+01 Gbps
+
+==== TILED ====
+	- Computational Rate:         6.8048528585990061e+02 Gflops
+	- Effective Bandwidth:        3.9872184718353547e+00 Gbps
+==================
+Starting Test for 4096,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         1.3493880928896884e+04 Gflops
+	- Effective Bandwidth:        1.5813141713551033e+02 Gbps
+	- Relative Error (l2):        0.0000000000000000e+00
+	- Relative Error (tiled):        0.0000000000000000e+00
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         2.4662403357158687e+03 Gflops
+	- Effective Bandwidth:        2.8901253934170338e+01 Gbps
+
+==== TILED ====
+	- Computational Rate:         5.3305464951269175e+02 Gflops
+	- Effective Bandwidth:        1.5616835434942138e+00 Gbps
+==================
+Starting Test for 8192,
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         1.8034412198419181e+04 Gflops
+	- Effective Bandwidth:        1.0567038397511239e+02 Gbps
+	- Relative Error (l2):        0.0000000000000000e+00
+	- Relative Error (tiled):        0.0000000000000000e+00
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         2.5032973354358101e+03 Gflops
+	- Effective Bandwidth:        1.4667757824819198e+01 Gbps
+
+==== TILED ====
+	- Computational Rate:         5.7429244456105960e+02 Gflops
+	- Effective Bandwidth:        8.4124869808748970e-01 Gbps
+==================
+Starting Test for 16384
+==================
+
+
+==== CUBLAS ====
+	- Computational Rate:         1.8949470805454464e+04 Gflops
+	- Effective Bandwidth:        5.5516027750354873e+01 Gbps
+	- Relative Error (l2):        1.7811310627491807e-06
+	- Relative Error (tiled):        1.7811310627491807e-06
+	- NAÏVE PASSED
+	- TILED PASSED
+
+==== NAÏVE ====
+	- Computational Rate:         2.4788773756848595e+03 Gflops
+	- Effective Bandwidth:        7.2623360615767378e+00 Gbps
+
+==== TILED ====
+	- Computational Rate:         5.7254119937710220e+02 Gflops
+	- Effective Bandwidth:        4.1934169876252597e-01 Gbps
